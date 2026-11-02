@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -78,3 +78,14 @@ link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
 
+
+## Issues
+
+- #1 Run log reader — https://github.com/bognov/rig-handover-s01e04/issues/1
+- #2 Digest page: GET /digest/:night — https://github.com/bognov/rig-handover-s01e04/issues/2
+- #3 Digest JSON: GET /api/digest/:night — https://github.com/bognov/rig-handover-s01e04/issues/3
+- #4 Board link to each night's digest — https://github.com/bognov/rig-handover-s01e04/issues/4
+- #5 Route tests for digest page and JSON — https://github.com/bognov/rig-handover-s01e04/issues/5
+- #6 Save preview and publish it on a public host — https://github.com/bognov/rig-handover-s01e04/issues/6
+- #7 Clean up: remove the lane marker from the preview — https://github.com/bognov/rig-handover-s01e04/issues/7
+- #8 Move plan to docs/plans/done/ with its issue list — https://github.com/bognov/rig-handover-s01e04/issues/8
