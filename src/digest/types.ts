@@ -18,5 +18,8 @@ export type Night = {
   badLines: number; // lines that did not parse, counted not thrown
 };
 
+// Lines per status in one night's log. Bad lines are not counted: they have no status.
+export type NightCounts = { ok: number; retry: number; fail: number };
+
 // Returns null when runs/<night>.jsonl does not exist.
 export type ReadNight = (runsDir: string, night: string) => Night | null;

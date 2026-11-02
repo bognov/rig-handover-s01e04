@@ -4,10 +4,10 @@ import type { DigestRow, Night, RunStatus } from './types.js';
 
 const STATUSES: readonly string[] = ['ok', 'retry', 'fail'];
 
-type Line = { at: string; job: string; status: RunStatus; owner: string | null; error: string | null };
+export type Line = { at: string; job: string; status: RunStatus; owner: string | null; error: string | null };
 
 // Parse at the edge: anything that is not a well-formed run line is a bad line.
-function parseLine(text: string): Line | null {
+export function parseLine(text: string): Line | null {
   let v: unknown;
   try {
     v = JSON.parse(text);
